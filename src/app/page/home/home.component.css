@@ -1,0 +1,44 @@
+.About {
+    background-color: #231B3B;
+}
+
+
+.About h2{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 2em;
+
+}
+.presentation{
+    display: flex;
+}
+.img-container {
+    width: 50%;
+    margin: auto;
+}
+
+#txt {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.img {
+    width: 50%;
+    border-radius: 50px;
+    height: 20%;
+
+}
+.carousel-item {
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  
+  .carousel-item img {
+    width: 15%; /* Ajusta esto para cambiar el tamaño de las imágenes */
+    height: auto; /* Mantiene la relación de aspecto de las imágenes */
+    object-fit: contain; /* Asegura que las imágenes se escalen correctamente */
+    border-radius: 20px;
+}
+  
+  
