@@ -1,44 +1,112 @@
-.About {
-    background-color: #231B3B;
-}
+@media(min-width:1024px) {
 
 
-.About h2{
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 2em;
+    .About {
+        background-color: #231B3B !important;
+    }
+
+    .About h2 {
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .presentation {
+        display: flex;
+        align-items: center;
+    }
+
+    .img-container {
+        width: 50%;
+        margin: auto;
+    }
+
+    #txt {
+        color: whitesmoke;
+        font-size: 24px;
+        text-align: left;
+
+    }
+
+    #txt p {
+        margin-top: 8rem;
+    }
+    rb{
+        color :yellow !important;
+    }
+    .img {
+        width: 50%;
+        border-radius: 50px;
+        height: 20%;
+    }
+
+    .carousel-item img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        /* Ajusta esto para cambiar el tamaño de las imágenes */
+        height: auto;
+        /* Mantiene la relación de aspecto de las imágenes */
+        border-radius: 20px;
+        padding: 10px;
+        height: auto;
+    }
+
+    .btn {
+        background-color: yellow;
+        margin: 20px;
+        
+    }
+
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: whitesmoke;    
+    }
+
+    #about-me h3 {
+        /* display: flex; */
+        text-align: center;
+    }
+    .contenedor-del-boton {
+        display: flex;
+        justify-content: center;
+    }
+    #about-me 
+    p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 769px) {
+    .img-container {
+        display: none;
+    }
+}
+
+/* Estilos para pantallas de 320px a 768px */
+@media (max-width: 768px) {
+    .img-container {
+        display: none;
+    }
+
 
 }
-.presentation{
-    display: flex;
-}
-.img-container {
-    width: 50%;
-    margin: auto;
-}
 
-#txt {
-    color: whitesmoke;
-    font-size: 20px;
-}
+@media(min-width: 320px) {
 
-.img {
-    width: 50%;
-    border-radius: 50px;
-    height: 20%;
+    #txt {
+        /* text-align: center; */
+        margin-top: 0;
+    }
+
+    #txt p {
+        text-align: center;
+    }
+
+
 
 }
-.carousel-item {
-    display: flex; /* Habilita Flexbox */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
-  }
-  
-  .carousel-item img {
-    width: 15%; /* Ajusta esto para cambiar el tamaño de las imágenes */
-    height: auto; /* Mantiene la relación de aspecto de las imágenes */
-    object-fit: contain; /* Asegura que las imágenes se escalen correctamente */
-    border-radius: 20px;
-}
-  
-  

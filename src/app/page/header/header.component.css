@@ -1,0 +1,27 @@
+/* Estilos para pantallas grandes */
+@media (min-width: 1024px) {
+    .navbar .navbar-nav {
+        display: flex;
+    }
+    .navbar .navbar-toggler {
+        display: none;
+    }
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+    }
+    #href{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar .navbar-nav {
+        display: none;
+    }
+    .navbar .navbar-toggler {
+        display: block;
+    }
+}
