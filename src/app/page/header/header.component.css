@@ -6,14 +6,17 @@
     .navbar .navbar-toggler {
         display: none;
     }
-    .container-fluid {
+    #href {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+
+
     }
-    #href{
-        display: flex;
-        justify-content: space-around;
+    #href a {
+        margin: 10px;
     }
+    
 }
 
 /* Estilos para pantallas pequeñas */

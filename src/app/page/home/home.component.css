@@ -31,9 +31,11 @@
     #txt p {
         margin-top: 8rem;
     }
-    rb{
-        color :yellow !important;
+
+    rb {
+        color: yellow !important;
     }
+
     .img {
         width: 50%;
         border-radius: 50px;
@@ -56,26 +58,31 @@
     .btn {
         background-color: yellow;
         margin: 20px;
-        
+
     }
 
     #about-me {
-        display: flex;
-        flex-direction: column;
+       display: flex; 
         text-align: center;
-        color: whitesmoke;    
+        color: whitesmoke;
     }
 
-    #about-me h3 {
-        /* display: flex; */
+    #about-me article {
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    #about-me
+    h3 {
         text-align: center;
     }
+
     .contenedor-del-boton {
         display: flex;
         justify-content: center;
     }
-    #about-me 
-    p{
+
+    #about-me p {
         font-size: 20px;
         text-align: center;
     }

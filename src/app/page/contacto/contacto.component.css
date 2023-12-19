@@ -1,0 +1,37 @@
+.body {
+    background-color: #231B3B;
+    display: flex;
+    justify-content: space-around;
+    height: 85vh;
+}
+
+/* Aplica el color white smoke a todos los elementos HTML */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+label {
+    color: whitesmoke;
+}
+
+.contact {
+    margin-top: 8rem;
+    padding: 4rem;
+
+}
+
+.form {
+    margin-top: 8rem;
+
+    padding: 4rem;
+
+}
+
+/* Hace que tu página sea responsive */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
